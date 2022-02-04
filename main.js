@@ -1,8 +1,8 @@
 function mySubbmitButton(){
     // document.write("hey there");
- var correct = 0;
+ var score = 0;
  var currentAnswer = document.Questions.question1.value;
- if (currentAnswer ==22){correct++};
- document.write(correct);
+ if (currentAnswer ==22){score+=10};
+ document.write(score);
 
 }
