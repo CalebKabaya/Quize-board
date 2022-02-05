@@ -1,10 +1,17 @@
-/* *{
+*{
 	margin: 0;
 	padding:0;
 	box-sizing:  border-box;
 }
 form {
-    margin: 30px 50px;
+    margin: 30px 50px
 
-
-} */
+}
+.rows h3{
+    font-size: 25px;
+}
+.rows p{
+    padding: 10px;
+    margin: 10px 10px;
+    font-size: 19px;
+}
