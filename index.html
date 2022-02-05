@@ -15,48 +15,52 @@
     <title>Quiz Board</title>
 </head>
 <body>
-    <div class="header">
-        <h2>Quiz Board</h2>
-    </div>
-    <form name="Questions" id ="quiz">
-        <h2>HTML Quiz</h2>
-        <div class="rows">
-            <h3>1. What does HTML stand for?</h3>
-           <p><input type="radio" name="question1" id="" value="Home Tool Markup Language">A: Home Tool Markup Language</p>
-           <p><input type="radio" name="question1" id="" value="Hyper Text Markup Language">B: Hyper Text Markup Language </p>
-           <p><input type="radio" name="question1" id="" value="Hyperlinks and Text markup Language">C: Hyperlinks and Text markup Language</p>
-           <p><input type="radio" name="question1" id="" value="None of the Obove">D: None of the Obove</p>
+    <div class=" border">
+        <div class="header">
+            <h2>Quiz Board</h2>
         </div>
-        <div class="rows">
-            <h3>2. Choose the correct HTML element for the largest heading:</h3>
-           <p><input type="radio" name="question2" id="" value="h1">A: h1</p>
-           <p><input type="radio" name="question2" id="" value="heading">B: heading</p>
-           <p><input type="radio" name="question2" id="" value="head">C: head</p>
-           <p><input type="radio" name="question2" id="" value="h6">D: h6</p>
-        </div> 
-        <div class="rows">
-            <h3>3. Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?</h3>
-           <p><input type="radio" name="question3" id="" value="title">A: title</p>
-           <p><input type="radio" name="question3" id="" value="longdesc">B: longdesc</p>
-           <p><input type="radio" name="question3" id="" value="alt">C: alt</p>
-           <p><input type="radio" name="question3" id="" value="src">D: src</p>
-        </div> 
-        <div class="rows">
-            <h3>4.True or False - The data in the head section is essential but not displayed.</h3>
-           <p><input type="radio" name="question4" id="" value="True">A: True</p>
-           <p><input type="radio" name="question4" id="" value="False">B: False</p>
+        <form name="Questions" id ="quiz">
+            <h2>HTML Quiz</h2>
+            <div class="rows">
+                <h3>1. What does HTML stand for?</h3>
+            <p><input type="radio" name="question1" id="" value="Home Tool Markup Language">A: Home Tool Markup Language</p>
+            <p><input type="radio" name="question1" id="" value="Hyper Text Markup Language">B: Hyper Text Markup Language </p>
+            <p><input type="radio" name="question1" id="" value="Hyperlinks and Text markup Language">C: Hyperlinks and Text markup Language</p>
+            <p><input type="radio" name="question1" id="" value="None of the Obove">D: None of the Obove</p>
+            </div>
+            <div class="rows">
+                <h3>2. Choose the correct HTML element for the largest heading:</h3>
+            <p><input type="radio" name="question2" id="" value="h1">A: h1</p>
+            <p><input type="radio" name="question2" id="" value="heading">B: heading</p>
+            <p><input type="radio" name="question2" id="" value="head">C: head</p>
+            <p><input type="radio" name="question2" id="" value="h6">D: h6</p>
+            </div> 
+            <div class="rows">
+                <h3>3. Which HTML attribute specifies an alternate text for an image,<br> if the image cannot be displayed?</h3>
+            <p><input type="radio" name="question3" id="" value="title">A: title</p>
+            <p><input type="radio" name="question3" id="" value="longdesc">B: longdesc</p>
+            <p><input type="radio" name="question3" id="" value="alt">C: alt</p>
+            <p><input type="radio" name="question3" id="" value="src">D: src</p>
+            </div> 
+            <div class="rows">
+                <h3>4.True or False - The data in the head section is essential but not displayed.</h3>
+            <p><input type="radio" name="question4" id="" value="True">A: True</p>
+            <p><input type="radio" name="question4" id="" value="False">B: False</p>
+            </div>
+            <div class="rows">
+                <h3>5. Who is making the Web standards?</h3>
+            <p><input type="radio" name="question5" id="" value="Microsoft">A: Microsoft</p>
+            <p><input type="radio" name="question5" id="" value="The World Web Consortium">B: The World Web Consortium</p>
+            <p><input type="radio" name="question5" id="" value="Google">C: Google</p>
+            <p><input type="radio" name="question5" id="" value="Mozilla">D: Mozilla</p>
+            </div>
+            <div class="submit-btn">
+                <input type="button" value="Submit" onclick="mySubbmitButton()">
+            </div>
+        </form>
+        <div id="results">
         </div>
-        <div class="rows">
-            <h3>5. Who is making the Web standards?</h3>
-           <p><input type="radio" name="question5" id="" value="Microsoft">A: Microsoft</p>
-           <p><input type="radio" name="question5" id="" value="The World Web Consortium">B: The World Web Consortium</p>
-           <p><input type="radio" name="question5" id="" value="Google">C: Google</p>
-           <p><input type="radio" name="question5" id="" value="Mozilla">D: Mozilla</p>
-        </div>
-        <div class="submit-btn">
-            <input type="button" value="Submit" onclick="mySubbmitButton()">
-        </div>
-    </form>
-    <div id="results"></div>
+</div>
+
 </body>
 </html>

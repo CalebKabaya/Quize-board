@@ -22,8 +22,12 @@ if (score==100){
 }else if (score==60){
     results.textContent="your score is 60%.You passed fairly!";
 }else if (score==40){
-    results.textContent="your score is 40%. You faild!. Please retake the test";
-}else{
-    results.textContent="your score is 20%. You faild!. Please retake the test";
+    results.textContent="your score is 40%. You failed!. Please retake the test....";
+}else if (score==20){
+    results.textContent="your score is 20%. You failed!. Please retake the test.....";
+}else {
+    results.textContent="your score is 0. You failed!. Please retake the test.....";
+
 }
+
 }
