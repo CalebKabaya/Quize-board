@@ -31,9 +31,13 @@
 
 * CSS - which was used to style the pages incuding the left aside navigation bar
 
+* Javascript- used for making the site interactive
+
+* FIGMA - used for creating the UI Desing, here is the link- (https://www.figma.com/file/qfBAS1dCKn0QRSkzjFwhwY/Untitled?node-id=0%3A1)
+
+
 ## Reference
 * Materialize CSS
-<p>this is the refrence UI Desing that i used</p>(https://www.figma.com/file/qfBAS1dCKn0QRSkzjFwhwY/Untitled?node-id=0%3A1)
 
 
 [Go Back to the top](#portfolio)
