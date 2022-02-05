@@ -14,9 +14,16 @@ function mySubbmitButton(){
  if (currentAnswer4 =="True"){score+=20};
  if (currentAnswer5 =="The World Web Consortium"){score+=20};
  Questions.style.display="none";
- results.textContent= score;
-if (score>=5){
-    results.textContent="your score is 100%. Congratulation! You passed!"
+//  results.textContent= score;
+if (score==100){
+    results.textContent="your score is 100%. Congratulation! You Excellently passed The Test!";
+}else if (score==80){
+    results.textContent="your score is 100%. Congratulation! You passed!";
+}else if (score==60){
+    results.textContent="your score is 60%.You passed fairly!";
+}else if (score==40){
+    results.textContent="your score is 40%. You faild!. Please retake the test";
+}else{
+    results.textContent="your score is 20%. You faild!. Please retake the test";
 }
-
 }
