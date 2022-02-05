@@ -8,6 +8,7 @@ function mySubbmitButton(){
  var currentAnswer5= document.Questions.question5.value;
  var results=document.getElementById("results");
 
+// Business logic
  if (currentAnswer1 =="Hyper Text Markup Language"){score+=20};
  if (currentAnswer2 =="h1"){score+=20};
  if (currentAnswer3 =="alt"){score+=20};
