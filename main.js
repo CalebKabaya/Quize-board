@@ -15,6 +15,8 @@ function mySubbmitButton(){
  if (currentAnswer5 =="The World Web Consortium"){score+=20};
  Questions.style.display="none";
  results.textContent= score;
-
+if (score>=5){
+    results.textContent="your score is 100%. Congratulation! You passed!"
+}
 
 }
