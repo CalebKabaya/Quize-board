@@ -48,6 +48,9 @@ h2{
     width: 15%;
     font-weight: bolder;
 }
+.submit-btn input:hover{
+    background-color: rgb(43, 65, 62);
+}
 @media screen and (max-width: 760px){
     .submit-btn input{
         background-color: darkcyan;
