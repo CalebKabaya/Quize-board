@@ -1,5 +1,4 @@
 function mySubbmitButton(){
-    // document.write("hey there");
  var score = 0;
  var currentAnswer1 = document.Questions.question1.value;
  var currentAnswer2 = document.Questions.question2.value;
